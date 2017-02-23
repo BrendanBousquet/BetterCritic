@@ -1,0 +1,2 @@
+# BetterCritic
+Software Engineering Project
