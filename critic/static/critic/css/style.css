@@ -1,0 +1,13 @@
+
+#header {
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: rgba(91, 128, 178, 0.32);
+}
+
+#popGames {
+    border-right: #5b80b2 solid 1px;
+}
+html {
+    background-color: rgba(91, 128, 178, 0.32);
+}
