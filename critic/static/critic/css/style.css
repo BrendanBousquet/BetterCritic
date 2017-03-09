@@ -1,13 +1,19 @@
 
 #header {
-    margin-bottom: 0px;
-    text-align: center;
-    background-color: rgba(91, 128, 178, 0.32);
+    /*margin-bottom: 0px;*/
+    /*text-align: center;*/
+
 }
 
 #popGames {
+    padding: 20px;
     border-right: #5b80b2 solid 1px;
 }
-html {
-    background-color: rgba(91, 128, 178, 0.32);
+
+#newGames {
+    padding: 20px;
+}
+
+.game {
+    padding: 20px;
 }
