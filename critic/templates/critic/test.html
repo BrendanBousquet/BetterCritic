@@ -10,24 +10,28 @@
                 <hr>
                 <div class="container">
                     <!-- Popular games start here -->
-                    <div class="row justify-content-center">
-                        <div class="col-md-5 game">
-                            <div class="card">
-                                <div class="view overlay hm-white-slight">
-                                    <img src="https://assets.vg247.com/current/2016/06/the_legend_of_zelda_breath_of_the_wild1.jpg"
-                                         class="img-fluid" alt="">
-                                    <a href="#">
-                                        <div class="mask waves-effect waves-light"></div>
-                                    </a>
-                                </div>
-                                <div class="card-block">
-                                    <h4 class="card-title">Game Title</h4>
-                                    <p class="card-text">Game of the Year</p>
-                                    <a href="#" class="btn btn-primary">Read more</a>
+                    {% if list %}
+                        {% for game in list %}
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 game">
+                                    <div class="card">
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="https://assets.vg247.com/current/2016/06/the_legend_of_zelda_breath_of_the_wild1.jpg"
+                                                 class="img-fluid" alt="">
+                                            <a href="#">
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-block">
+                                            <h4 class="card-title">{{game.game_name}}</h4>
+                                            <p class="card-text">Game of the Year</p>
+                                            <a href="{{game.game_name}}" class="btn btn-primary">Read more</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        {% endfor %}
+                    {% endif %}
                     <div class="row justify-content-center">
                         <div class="col-md-5">
                             <div class="card">
