@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4535db75-c88d-43a1-a479-badf901170b2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/critic/templates/critic/generic_review.html" afterPath="$PROJECT_DIR$/critic/templates/critic/game_detail.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/critic/templates/critic/test.html" afterPath="$PROJECT_DIR$/critic/templates/critic/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/critic/urls.py" afterPath="$PROJECT_DIR$/critic/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/critic/views.py" afterPath="$PROJECT_DIR$/critic/views.py" />
-    </list>
+    <list default="true" id="4535db75-c88d-43a1-a479-badf901170b2" name="Default" comment="" />
     <ignored path="BetterCritic.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
