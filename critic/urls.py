@@ -4,5 +4,5 @@ from critic import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^$', views.test, name='test'),
+    url(r'^$', views.game_detail, name='game_detail'),
 ]

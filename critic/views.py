@@ -6,9 +6,9 @@ from critic.models import Game
 def index(request):
     games = Game.objects.all()
     context = RequestContext(request, {'list': games})
-    template = loader.get_template('critic/test.html')
+    template = loader.get_template('critic/index.html')
     return HttpResponse(template.render(context))
 
-def test(request):
-    template = loader.get_template('critic/test.html')
+def game_detail(request):
+    template = loader.get_template('critic/game_detail.html')
     return HttpResponse(template.render(request))
