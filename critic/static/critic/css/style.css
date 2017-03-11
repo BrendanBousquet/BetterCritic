@@ -1,0 +1,19 @@
+
+#header {
+    /*margin-bottom: 0px;*/
+    /*text-align: center;*/
+
+}
+
+#popGames {
+    padding: 20px;
+    border-right: #5b80b2 solid 1px;
+}
+
+#newGames {
+    padding: 20px;
+}
+
+.game {
+    padding: 20px;
+}
