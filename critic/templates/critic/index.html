@@ -1,63 +1,87 @@
-<!-- index.html -->
-{% load static %}
+<!-- test.html -->
+{% extends 'critic/base.html' %}
 
-<link  href="{% static 'critic/css/style.css' %}" rel="stylesheet" type="text/css"  />
+{% block content %}
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<body>
-        <div class="page-header" id="header">
-            <h1>Welcome to BetterCritic </h1>
-        </div>
-		<nav class="navbar navbar-default">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <a class="navbar-brand" href="#">BC</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Reviews</a></li>
-              </ul>
-              <form class="navbar-form navbar-right">
-                <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Search">
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-        <div class="container-fluid">
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-md-6" id="popGames">
-                <h3>Popular Games</h3>
+                <h3 class="h3-responsive">Popular Games</h3>
+                <hr>
+                <div class="container">
+                    <!-- Popular games start here -->
+                    {% if list %}
+                        {% for game in list %}
+                            <div class="row justify-content-center">
+                                <div class="col-md-5 game">
+                                    <div class="card">
+                                        <div class="view overlay hm-white-slight">
+                                            <img src="https://assets.vg247.com/current/2016/06/the_legend_of_zelda_breath_of_the_wild1.jpg"
+                                                 class="img-fluid" alt="">
+                                            <a href="#">
+                                                <div class="mask waves-effect waves-light"></div>
+                                            </a>
+                                        </div>
+                                        <div class="card-block">
+                                            <h4 class="card-title">{{game.game_name}}</h4>
+                                            <p class="card-text">Game of the Year</p>
+                                            <a href="{{game.game_name}}" class="btn btn-primary">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
             </div>
-
             <div class="col-md-6" id="newGames">
-                <h3> New Releases </h3>
+                <h3 class="h3-responsive"> New Releases </h3>
+                <hr>
+                <div class="container">
+                    <!--New games start here -->
+                    <div class="row justify-content-center">
+                        <div class="col-md-5">
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="https://blogs-images.forbes.com/erikkain/files/2017/02/horizon-zero-dawn-tallneck.jpg"
+                                         class="img-fluid" alt="">
+                                    <a href="#">
+                                        <div class="mask waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Horizon: Zero Dawn</h4>
+                                    <p class="card-text">Not Game of the Year</p>
+                                    <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-5 game">
+                            <div class="card">
+                                <div class="view overlay hm-white-slight">
+                                    <img src="https://assets.vg247.com/current/2016/06/the_legend_of_zelda_breath_of_the_wild1.jpg"
+                                         class="img-fluid" alt="">
+                                    <a href="#">
+                                        <div class="mask waves-effect waves-light"></div>
+                                    </a>
+                                </div>
+                                <div class="card-block">
+                                    <h4 class="card-title">Game Title</h4>
+                                    <p class="card-text">Game of the Year</p>
+                                    <a href="#" class="btn btn-primary">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            {% block content %}
-            {% endblock %}
-        
         </div>
-	</body>
-</head>
 
-</html>
+    </div>
+
+
+
+{% endblock %}
+
