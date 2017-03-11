@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4535db75-c88d-43a1-a479-badf901170b2" name="Default" comment="" />
+    <list default="true" id="4535db75-c88d-43a1-a479-badf901170b2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/criticV1/settings.py" afterPath="$PROJECT_DIR$/criticV1/settings.py" />
+    </list>
     <ignored path="BetterCritic.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -24,7 +26,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/critic/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="135">
               <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -43,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/critic/templates/critic/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="15">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -76,7 +78,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/critic/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="120">
               <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -85,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/criticV1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
+            <state relative-caret-position="600">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,18 +116,18 @@
       <list>
         <option value="$PROJECT_DIR$/critic/static/critic/style.css" />
         <option value="$PROJECT_DIR$/static/css/style.css" />
-        <option value="$PROJECT_DIR$/critic/templates/critic/index.html" />
         <option value="$PROJECT_DIR$/critic/static/critic/css/style.css" />
         <option value="$PROJECT_DIR$/critic/templates/critic/base.html" />
         <option value="$USER_HOME$/mysite/howdy/models.py" />
         <option value="$PROJECT_DIR$/critic/models.py" />
-        <option value="$PROJECT_DIR$/criticV1/settings.py" />
         <option value="$USER_HOME$/mysite/howdy/templates/base_review.html" />
         <option value="$PROJECT_DIR$/critic/templates/critic/test.html" />
         <option value="$PROJECT_DIR$/critic/templates/critic/generic_review.html" />
         <option value="$PROJECT_DIR$/critic/templates/critic/game_detail.html" />
         <option value="$PROJECT_DIR$/critic/views.py" />
         <option value="$PROJECT_DIR$/critic/urls.py" />
+        <option value="$PROJECT_DIR$/critic/templates/critic/index.html" />
+        <option value="$PROJECT_DIR$/criticV1/settings.py" />
       </list>
     </option>
   </component>
@@ -165,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -255,6 +256,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -796,14 +798,6 @@
     <entry file="file://$USER_HOME$/mysite/howdy/views.py" />
     <entry file="file://$USER_HOME$/mysite/howdy/models.py" />
     <entry file="file://$USER_HOME$/mysite/howdy/templates/base_review.html" />
-    <entry file="file://$PROJECT_DIR$/criticV1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="58" selection-start-line="79" selection-start-column="58" selection-end-line="79" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/critic/templates/critic/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -814,7 +808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/critic/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="120">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -824,7 +818,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/critic/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="135">
           <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -865,8 +859,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/critic/templates/critic/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="15">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/criticV1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
