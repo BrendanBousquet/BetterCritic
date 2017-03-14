@@ -3,5 +3,7 @@
 {% extends 'critic/base.html' %}
 
 {% block content %}
-
+    {% for game in list %}
+        {{ game.game_name }}
+    {% endfor %}
 {%  endblock %}
