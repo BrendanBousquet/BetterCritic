@@ -1,13 +1,15 @@
-1489458498554	geckodriver	INFO	Listening on 127.0.0.1:62829
-1489458500614	mozprofile::profile	INFO	Using profile path C:\Users\Brendan\AppData\Local\Temp\rust_mozprofile.so0J7pRW6mkq
-1489458500614	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
-1489458500630	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62835
-1489458503294	Marionette	INFO	Listening on port 62835
-JavaScript warning: http://oystatic.ignimgs.com/cache/js/36/aa/36aacd24e856f29be06248031747e3b1.js, line 211: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-JavaScript warning: http://cdn.ziffstatic.com/jst/tblwd_b.js, line 8: unreachable code after return statement
+1492724065318	geckodriver	INFO	Listening on 127.0.0.1:60306
+1492724067345	mozprofile::profile	INFO	Using profile path C:\Users\Brendan\AppData\Local\Temp\rust_mozprofile.N5Yp4JMuXjg4
+1492724067349	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args []
+1492724067357	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60312
+1492724068328	Marionette	INFO	Listening on port 60312
+JavaScript warning: http://oystatic.ignimgs.com/cache/js/81/71/8171ca0f6d68caa2afa8ace06935efd5.js, line 206: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
 JavaScript warning: http://cdn.ziffstatic.com/jst/tblwd_b.js, line 8: unreachable code after return statement
 JavaScript warning: http://tags.bkrtx.com/js/bk-coretag.js, line 5: flags argument of String.prototype.{search,match,replace} is deprecated
-JavaScript warning: http://cdn.krxd.net/ctjs/controltag.js.6f097431db32c7c9f9254dccb9812402, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
-JavaScript error: https://s0.2mdn.net/3673514/1488482674642/Grooves_WhiteCheddar_300x250.html, line 32: ReferenceError: $PRELOAD_ASSETS is not defined
-JavaScript warning: https://s0.2mdn.net/ads/richmedia/studio/pv2/60070804/20170222133614862/gwd_webcomponents_min.js, line 11: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+JavaScript warning: http://cdn.krxd.net/ctjs/controltag.js.714934d71ca8a8cd8c474d2f7d4608ec, line 7: mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+[NPAPI 3068] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+1492724131321	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+RT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2027
+src/ipc/glue/MessageChannel.cpp, line 2027
+r code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
 [NPAPI 4400] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2027
