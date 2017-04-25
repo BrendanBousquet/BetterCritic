@@ -4,6 +4,14 @@
 
 {% block content %}
     {% for game in list %}
-        {{ game.game_name }}
+        <h1>{{ game.game_name }}</h1>
+    {% endfor %}
+
+    {% for game in list %}
+        <h3> score: {{ game.game_score }}</h3>
+    {% endfor %}
+
+    {% for game in list %}
+        {{ game.game_description }}
     {% endfor %}
 {%  endblock %}

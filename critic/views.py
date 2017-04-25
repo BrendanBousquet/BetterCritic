@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import RequestContext, loader
 from critic.models import Game
+import os.path
 
 def index(request):
     games = Game.objects.all()
